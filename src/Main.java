@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello World");
         System.out.println("Задание №1");
         var dog = 8;
         System.out.println(dog);
@@ -55,8 +56,5 @@ public class Main {
         System.out.println("Всего работников в компании - " + totalHoursOfOperation / workingDay + " человек");
         var totalEmployees = totalHoursOfOperation / workingDay + 94;
         System.out.println("Если в компании работает  " + totalEmployees + " человек, то всего " + totalEmployees * workingDay + " часов работы может быть поделено между сотрудниками");
-
-
-
     }
 }
