@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
         System.out.println("Задание №1");
         var dog = 8;
         System.out.println(dog);
@@ -47,4 +46,5 @@ public class Main {
 
 
     }
+
 }
