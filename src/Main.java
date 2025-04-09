@@ -43,7 +43,8 @@ public class Main {
         var workingDay = 8;
         System.out.println("Всего работников в компании - " + totalHoursOfOperation / workingDay + " человек");
         var totalEmployees = totalHoursOfOperation / workingDay + 94;
-        System.out.println("Если в компании работает  " + totalEmployees + " человек, то всего " + totalEmployees * workingDay + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает  " + totalEmployees + " человек, то всего "
+                + totalEmployees * workingDay + " часов работы может быть поделено между сотрудниками");
     }
 
 
